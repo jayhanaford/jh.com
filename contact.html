@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Jay Hanaford - Web and Print Design</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<script type="text/javascript" src="jquery-1.2.3.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" ></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js" ></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#gallery > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5500, true);
+	});
+</script>  
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#1, #2, #3").lavaLamp({
+                fx: "easeinout",
+                speed: 200,
+                click: function clickit(el) {
+				window.location=$(el).attr('href');
+                }
+            });
+        });
+    </script>
+    
+	<script src="js/jquery.infieldlabel.min.js" type="text/javascript" charset="utf-8"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+		$(function(){ $("label").inFieldLabels(); });
+	</script>
+	<!--[if lte IE 6]>
+		<style type="text/css" media="screen">
+			form label {
+					background: #fff;
+			}
+		</style>
+	<![endif]-->
+    
+    
+     
+    <style type="text/css">
+<!--
+
+-->
+    </style>
+</head>
+<body>
+<div id="header">
+   	<div id="navigation">  <a href="index.html"><img src="images/trans.png" border="0" /></a>   
+    	<ul class="icons" id="1">
+        	<li><a href="index.html"></a></li>
+            <li><a href="portfolio/index.html"></a></li>
+    		<li><a href="about.html"></a></li>
+    		<li class="current"><a href="contact.html"></a></li>
+		</ul>
+        </div>
+</div>
+    </div>
+<div id="content">
+<div id="contactinfo">
+<p><span class="largebold">Jason Hanaford</span></p>
+<p><font color="white">Phone</font> <span class="large">(774) 364-1531</span></p>
+<p><font color="white">Email</font> <span class="large"><a href="mailto:jay.hanaford@gmail.com">jay.hanaford@gmail.com</a></span></p>
+<p>(if you need my exact address, email me or use the form to the right.)</p><br />
+
+	<div>
+    	<p><a href="resume.html">View my resume</a>
+    	<ul>
+     	 <li><a href="resume.html">Download in HTML</a></li>
+     	 <li><a href="JasonHanaford-resume.pdf">Download as PDF</a></li>
+   	 	</ul>
+    	</p>
+    </div><br />
+
+<p><font color="white">Connect with me on Linkedin</font> <br /><br />
+<a href="http://www.linkedin.com/in/jasonhanaford"><img src="images/linkedin_button.png" alt="View Jason Hanaford's profile on LinkedIn" width="64" height="64"></a></p>
+        
+    </a>
+</div>
+  <div id="contactform">
+  <form method="POST" action="contact.php">
+		<fieldset>
+		<legend class="largebold">Send me a message.</legend>
+            <p>If you would like a quote, make sure to leave your name, details of your project, contact information, and your projected budget.</p>
+			<p>
+<label for="name">Name</label><br />
+				<input type="text" name="name" value="" id="name">
+			</p>
+			<p>
+				<label for="email">Email</label><br />
+				<input type="text" name="email" value="" id="email">
+			</p>
+			<p>
+				<label for="message">Message</label><br />
+				<textarea cols="30" rows="10" name="message" id="message"></textarea>
+			</p>
+		</fieldset>
+		<p><input type="submit" name="submit" value="Send your message" alt="Submit"></p>
+	</form>
+  </div>
+  </div>  
+<div id="footer" class="clearfix">
+        <ul class="clearfix left">
+		  <li><a href="index.html" title="Home">Home</a></li>
+			<li><a href="portfolio/index.html" title="Portfolio">Portfolio</a></li>
+		  <li><a href="about.html" title="About">About</a></li>
+			<li><a href="contact.html" title="Contact">Contact</a></li>
+        </ul>
+        <p class="right">
+        <img src="images/logo.gif" alt="jayhanaford.com" width="39" height="28" class="right" />
+            <span>&copy;</span> All Rights Reserved - Jason Hanaford - 2011        </p>
+</div>
+</div>
+</body>
+</html>

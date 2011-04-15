@@ -1,0 +1,77 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>
+audioxpress 11.10	</title>
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<style type="text/css">
+		<!--
+			body {
+				margin-left: 0px;
+				margin-top: 0px;
+				margin-right: 0px;
+				margin-bottom: 0px;
+			}
+		-->
+	</style>
+	<Style>
+		body {overflow-y:hidden;}
+	</style>
+	<script LANGUAGE="JavaScript">
+		function closeWindow() {
+			self.close();	}
+	</script>
+</head>
+<body bgcolor="#333333" onresize="window.location=window.location;">
+	<div id="flashcontent" class="flashcontent">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%" id="1110" align="middle">
+		<param name="allowScriptAccess" value="sameDomain" />
+		<param name="movie" value="3dissue.swf?myURL=20" />
+		<param name="quality" value="high" />
+		<param name="bgcolor" value="#333333" />
+		<embed src="3dissue.swf?myURL=20" quality="high" bgcolor="#333333" width="100%" height="100%" name="1110" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object></div>
+	<div id="content"  class="content">tubes
+
+By Cornelius Morton
+
+The Split Load Phase Inverter Revisited
+
+T
+
+he split load phase inverter (SLPI) has been the matter of several discussions in the Xpress mail section of audioXpress: Testing Impedance by C. Paul in the April '09 issue and Impedance Dispute by R. Mallory in the August '09 issue are two examples. Both instances cite the Radiotron Designers Handbook 4th edition (RDH), which is a superb reference. The following discussion will be involved with the feedback aspects of the SLPI and how they provide the unique properties of the circuit. But first, a quick review of gain calculation for a triode and the feedback calculations. Low frequency gain, Ao, equals -u*Rl/ (rp+Rl) where u = gm*rp and Rl is the plate load resistance plus any unbypassed resistance in the plate current path. The negative sign indicates that the plate output is inverted with respect to the grid input. Feedback gain, A’, equals Ao/(1B*Ao) where the feedback factor, B, equals the ratio of feedback voltage to the output voltage of the amplifier and is negative for negative feedback. For the balanced SLPI one half of the total output is fed back so B is –0.50. Figure 1 illustrates the typical SLPI and is labeled to conform to the illustration on page 329 of the RDH, figure 7.25. Assuming one section of a 6SN7GTB the parameters are rp = 7700Ω gm = 2600 S u = 20 Setting Rk = Rl = 10kΩ and B+ = 300V DC and Rl’= Rl + Rk, a load line may be drawn on the plate characteristics from 15mA Ip to 300V Eb and used to select a bias voltage, in this case –6V DC resulting in an Ip of 20
+
+7mA. Then Ao = u(Rk+Rl)/(rp + Rl +Rk) = 14.44. Now for the feedback part. Referring to Fig. 1, the feedback is developed by Rk, since Rk = Rl then the feedback factor, B, equals -0.5, so A’ = Ao/(1+ B*Ao) or 14.44/(1 + 7.22) = 1.7567. The gain is split between Rk and Rl so that Ak = 0.87835 as does Ap. Note that Ek = 70V DC, Ep = 230V DC, and E bias = 64V DC. These are the conditions for the standard balanced SLPI, which will be called case 1. For case 2, Rl will be loaded so that the value of Rl = 7kΩ, then B = Rk/ (Rk+Rl) = 10k/17k = -0.58824. Ao = 20*17k/(7.7k + 17k) = 13.7652. A’ = 13.7652/(1+ 8.0914) = 1.514. Ak = 0.89035 and Ap = 0.62365; note that Ak has barely changed while Ap has lost 0.2547 or 29% of its gain while the change Ip = Ik is very small. Looks like rp has become rather large when looking at the plate circuit. Case 3 will have Rk loaded to 7kΩ. Then B = -0.411765. Ao = 13.7652 (same as case 2). A’ = 13.7652/(1 + 5.66803) = 2.06436. Ak = 0.85003 and Ap = 1.21433. In this case Ap has increased by 0.3359, 38%, while Ak has changed by very little and Ip has increased by 38%. This indicates a low value of rp when looking at the plate. Case 4 is the combination of 2 and 3, both Rk and Rl are loaded to a value of 7kΩ. As the loads are balanced B = -0.50, Ao = 20* 14k/(7.7k + 14k) = 11.05991. A’ = 11.05991/(1 + 5.52995) = 1.69372. Ak = Ap = 0.84686, Ip has increased from case 1 by 37% while the gain has only changed by 0.03154, 3.6%, indicating a low rp for the cathode and plate outputs, 972Ω. Using the initial values in equation 31 on page 330 of the RDH a value of 843Ω for rp is obtained—a decent correlation.
+
+audioXpress 11/10
+
+www.audioXpress .com
+
+</div>
+<!--========= Google Analytics code starts ========-->
+<script type="text/javascript">
+//<![CDATA[
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//]]>
+</script><script type="text/javascript">
+//<![CDATA[
+	try {
+	var pageTracker = _gat._getTracker("edthomwards3@gmail.com ");
+	pageTracker._trackPageview();
+	} catch(err) {}
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+	function testFunction(str)
+	{
+		alert(str);
+	}
+//	testFunction("ready");
+//]]>
+</script>
+<!--========= Google Analytics code ends ==========-->
+</body>
+</html>

@@ -1,0 +1,88 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>
+audioxpress 11.10	</title>
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<style type="text/css">
+		<!--
+			body {
+				margin-left: 0px;
+				margin-top: 0px;
+				margin-right: 0px;
+				margin-bottom: 0px;
+			}
+		-->
+	</style>
+	<Style>
+		body {overflow-y:hidden;}
+	</style>
+	<script LANGUAGE="JavaScript">
+		function closeWindow() {
+			self.close();	}
+	</script>
+</head>
+<body bgcolor="#333333" onresize="window.location=window.location;">
+	<div id="flashcontent" class="flashcontent">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%" id="1110" align="middle">
+		<param name="allowScriptAccess" value="sameDomain" />
+		<param name="movie" value="3dissue.swf?myURL=10" />
+		<param name="quality" value="high" />
+		<param name="bgcolor" value="#333333" />
+		<embed src="3dissue.swf?myURL=10" quality="high" bgcolor="#333333" width="100%" height="100%" name="1110" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object></div>
+	<div id="content"  class="content">s o l i d s t at e
+
+By Claude Goeuriot
+
+A Power Sine Generator for Turntables
+Take control of your turntable with this variable generator.
+like old Thorens turntables, and I recently started to renovate a venerable TD 160 whose platter is belt driven by a synchronous AC motor. When I measured the TD 160, even with a brand new belt, the speed of this record spinner was 0.77% lower than expected, giving 3126Hz for the 3150Hz signal of the test record. Not a big deal, but my hunt for perfection led me to design a variable 50/60Hz sine generator for more precise speed (Photo 1). The main advantages of the Power Sine Generator are: • Stable frequency (quartz generated) •	 Possibility of changing the frequency of the output signal by 0.4% step •	 Pure output signal (compared to the mains AC signal in my flat) •	 Electronic 33/45 speed switch •	 115V/230V AC output •	 Optional 50Hz/60Hz output (by downloading the appropriate program to the processor). In this article, the signal frequency is 50Hz, but a software version is also available for 60Hz signal.
+
+I
+
+PHOTO 1: A power sinus generator for a turntable synchronous AC motor.
+
+DESIGN
+
+WARNING
+
+This project is connected to 230V AC mains supply (alternatively, 115V AC mains supply) and is potentially lethal. Furthermore, it generates lethal output voltages (again, 115V AC/230V AC). As a result of this, please observe the following: • Do NOT build this project unless you are completely familiar with main wiring practices. • The circuit MUST be built into a fully enclosed case connected to ground or in an isolating plastic enclosure. • Do NOT touch anything inside the case when the circuit is powered (even if turned off ). 10
+
+Today’s technology will help generate a signal that will vary around 50 (60) Hz with the use of a microprocessor. Figure 1 shows the block diagram of the PSG-1: a microprocessor running at 20MHz drives a digital analog converter to generate a 50Hz low voltage signal. Each period is generated with 200 intermediate steps. The signal then goes through a low-pass filter that eliminates the staircase effect of the quantification. The final stage is an audio power amplifier driving a step-up transformer for an output signal of 115 or 230V AC. A nine-position switch allows for a ±1.6% variation of the frequency around the nominal value. Different voltages are necessary for the PSG-2: ±30V for the amplifier, ±12V for the low-pass filter, and +5V for the microprocessor. Figure 2 shows the interconnections between the different boards. The transformers are the only components that are not mounted on the boards. The first transformer provides the 2 × 20V AC (30W) necessary for the power supply of the amplifier board and the second one is used as a step-up transformer to generate the 115/230V AC output signal.
+www.audioXpress .com
+
+OPERATION
+
+The PSG-2 is built around three different printed circuit boards (Photo 2): • The front face PCB that houses the switches and the associated electronics • The microprocessor and low pass filter PCB ( Photo 3)(with additional ±12V daughter board) • The audio power amplifier. The front face PCB is a very simple board (Fig. 3), parallel to the front face, that houses the 12 (nine used)-position rotary switch for speed variation and the 33/45 switch. The electronic circuit is simple: a TTL 74LS147 or equivalent converts the signal from the rotary switch into a four-digit value that will be acquired by the microprocessor. The microprocessor (Fig. 4) is an old PIC 16F84 that I used because I had it in stock. Microchip producers now offer more functionality in the same package, but the old 16F84 does the job. The 16F84 is clocked by 20MHz quartz and drives an 8-bit digital analog converter based on R-2R topology. Connector P1 links the microprocessor to the front face PCB, and connector P2 allows you to connect the PICKIT2 debugger and memory loader.
+
+audioXpress 11/10
+
+</div>
+<!--========= Google Analytics code starts ========-->
+<script type="text/javascript">
+//<![CDATA[
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//]]>
+</script><script type="text/javascript">
+//<![CDATA[
+	try {
+	var pageTracker = _gat._getTracker("edthomwards3@gmail.com ");
+	pageTracker._trackPageview();
+	} catch(err) {}
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+	function testFunction(str)
+	{
+		alert(str);
+	}
+//	testFunction("ready");
+//]]>
+</script>
+<!--========= Google Analytics code ends ==========-->
+</body>
+</html>

@@ -1,0 +1,122 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>
+	</title>
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<style type="text/css">
+		<!--
+			body {
+				margin-left: 0px;
+				margin-top: 0px;
+				margin-right: 0px;
+				margin-bottom: 0px;
+			}
+		-->
+	</style>
+	<Style>
+		body {overflow-y:hidden;}
+	</style>
+	<script LANGUAGE="JavaScript">
+		function closeWindow() {
+			self.close();	}
+	</script>
+</head>
+<body bgcolor="#333333" onresize="window.location=window.location;">
+	<div id="flashcontent" class="flashcontent">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%" id="810" align="middle">
+		<param name="allowScriptAccess" value="sameDomain" />
+		<param name="movie" value="3dissue.swf?myURL=6" />
+		<param name="quality" value="high" />
+		<param name="bgcolor" value="#333333" />
+		<embed src="3dissue.swf?myURL=6" quality="high" bgcolor="#333333" width="100%" height="100%" name="810" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object></div>
+	<div id="content"  class="content">Test Bench
+Tymphany/Airborne
+By Vance Dickason
+his month’s Test Bench samples are both home audio drivers. From Tymphany, a 6.5″ woofer from the new Vifa NE line—the NE180W-04. And from Airborne, the wood cone HR124B8-10L midrange (the 5.25″ wood cone woofer version, the FR148B6-17L, was featured in the September 2009 issue).
+
+T
+
+NE180W-04
+Like the other Vifa NE series woofers I have reviewed (Voice Coil featured reports on the Vifa NE149 and NE225 in the December 2009 issue, and the NE315 in the July 2010 issue), the 6.5″ NE180W-04 (Photo 1) represents a completely new from-the-ground-up design. As with the other woofers in the NE series, the NE180 incorporates a group of similar features. Starting with the frame, Vifa has designed a proprietary cast aluminum frame that minimizes frame reflections back into the cone, open cooling area below the spider mounting shelf, as well as providing a heatsink for the neodymium motor. The cone and dust cap on all models incorporate a natural wood fiber paper slurry with added proprietary coating to improve clarity (damp surface modes).
+
+and were discarded. As has become the protocol for Test Bench testing, I no longer use a single added mass measurement and instead used actual measured mass, but the manufacturer’s measured Mmd data. Next, I post-processed the remaining eight 550 point stepped sine wave sweeps for each NE180 sample and divided the voltage curves by the current curves (admittance) to derive impedance curves, phase added by the LMS calculation method, and along with the accompanying voltage curves, imported to the LEAP 5 Enclosure Shop software. Because most Thiele/Small data provided by the majority of OEM manufacturers is generated using either the standard model or the LEAP 4 TSL model, I additionally produced a LEAP 4 TSL parameter set using the 1V free-air curves. I selected the complete data set, the multiple voltage impedance curves for the LTD model (see Fig. 1 for the 1V free-air impedance curve) and the 1V impedance curve for the TSL model in the transducer derivation menu in LEAP 5, and produced the parameters for the computer box simulations. Table 1 compares the LEAP 5 LTD and TSL data and factory parameters for both Vifa NE180 samples. LEAP parameter Qts calculation results for the NE180 were reasonably close to the factory data; however, my data definitely showed a lower Qms compared to the factory data. Although the preliminary factory data showed some variation, I followed my usual protocol and proceeded setting up computer enclosure simulations using the LEAP LTD parameters for Sample 1. Two computer vented box simulations were programmed into LEAP, one QB3 with a 227 in3 volume tuned to 61Hz and an EBS (Extended Bass Shelf) vented enclosure
+Impedance vs Freq
+
+100
+
+Ohm
+
+50
+
+20
+
+10
+
+5
+
+PHOTO 1: NE180W-04
+
+2
+
+This also includes Vifa’s Pentacone technology for improved edge damping. The neodymium ring magnet motors are FEA designed and incorporate copper Faraday shields (shorting rings) for reduced distortion. And as with the other NE woofers, the NE180 uses a titanium voice coil former terminated to a unique gold-plated terminal that incorporates both standard terminals and screw blocks. Cosmetically speaking, these are very good looking drivers. I commenced analysis of the NE180W-04 using the LinearX LMS analyzer (soon to be available in an outboard chassis with USB connection) and VIBox to produce both voltage and admittance (current) curves with the driver clamped to a rigid test fixture in free-air at 0.3V, 1V, 3V, 6V, and 10V. As with almost all 6.5″ drivers, the 10V curves were too nonlinear for LEAP to get a reasonable curve fit
+6
+voice coil
+
+1
+
+10 Hz
+
+20
+
+50
+
+100
+
+200
+
+500
+
+1K
+
+2K
+
+5K
+
+10K
+
+20K
+
+FIGURE 1: Vifa NE180W-04 woofer free-air impedance plot.
+
+Table 1: Vifa Ne180W-04 midwoofer 	 	 FS	 REVC	 Sd	 QMS	 QES	 QTS	 VAS	 SPL	2.83V	 XMAX	 TSL	model	 	 sample	1	 sample	2	 36.6Hz	 3.15	 0.0133	 5.36	 0.28	 0.26	 24.7	ltr	 88.3dB	 5.0mm	 38.1Hz	 3.30	 0.0133	 5.27	 0.30	 0.29	 22.8	ltr	 88.1dB	 5.0mm	 LTD	model	 	 Factory sample	1	 sample	2	 	 36.6Hz	 3.15	 0.0133	 4.34	 0.24	 0.23	 25.0	ltr	 88.9dB	 5.0mm	 35.7Hz	 3.30	 0.0133	 4.19	 0.26	 0.25	 26.3	ltr	 88.4dB	 5.0mm	 39Hz						 3.3	 			 0.0135 8.60						 0.30			 0.29									 22.5	ltr		 	 89.8dB				 	 5.0mm
+
+</div>
+<!--========= Google Analytics code starts ========-->
+<script type="text/javascript">
+//<![CDATA[
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//]]>
+</script><script type="text/javascript">
+//<![CDATA[
+	try {
+	var pageTracker = _gat._getTracker("");
+	pageTracker._trackPageview();
+	} catch(err) {}
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+	function testFunction(str)
+	{
+		alert(str);
+	}
+//	testFunction("ready");
+//]]>
+</script>
+<!--========= Google Analytics code ends ==========-->
+</body>
+</html>

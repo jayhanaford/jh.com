@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Jay Hanaford - Web and Print Design</title>
+<link rel="stylesheet" type="text/css" href="../css/styles.css" />
+
+<script language="JavaScript">
+<!-- Begin Image Mouseover Code
+
+image0 = new Image();
+image0.src = "../images/portfolio_printc.jpg";
+
+image1 = new Image();
+image1.src = "../images/portfolio_webc.jpg";
+
+image2 = new Image();
+image2.src = "../images/portfolio_photographyc.jpg";
+
+// end Image Mouseover Code-->
+</script> 
+<script type="text/javascript" src="../js/jquery-1.2.3.min.js"></script>
+<script type="text/javascript" src="../js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#1, #2, #3").lavaLamp({
+                fx: "easeinout",
+                speed: 200,
+                click: function clickit(el) {
+				window.location=$(el).attr('href');
+                }
+            });
+        });
+    </script>  
+</head>
+<body>
+<div id="header">
+   	<div id="navigation"> <a href="../index.html"><img src="../images/trans.png" border="0" /></a>  
+   	  <ul class="icons" id="1">
+       	<li><a href="../index.html"></a></li>
+            <li class="current"><a href="index.html"></a></li>
+    		<li><a href="../about.html"></a></li>
+    		<li><a href="../contact.html"></a></li>
+	  </ul>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio_select">
+<a href="printmedia.html" onmouseover="image0.src='../images/portfolio_printc.jpg';"
+onmouseout="image0.src='../images/portfolio_print.jpg';"><img src="../images/portfolio_print.jpg" name="image0" width="334" height="496"></a><a href="web.html" onmouseover="image1.src='../images/portfolio_webc.jpg';"
+onmouseout="image1.src='../images/portfolio_web.jpg';"><img src="../images/portfolio_web.jpg" name="image1"  /></a><a href="photography.html" onmouseover="image2.src='../images/portfolio_photographyc.jpg';"
+onmouseout="image2.src='../images/portfolio_photography.jpg';"><img name="image2" src="../images/portfolio_photography.jpg"></a></div>
+
+<div id="footer" class="clearfix">
+        <ul class="clearfix left">
+		  <li><a href="../index.html" title="Home">Home</a></li>
+			<li><a href="index.html" title="Portfolio">Portfolio</a></li>
+			<li><a href="../about.html" title="About">About</a></li>
+			<li><a href="../contact.html" title="Contact">Contact</a></li>
+        </ul>
+        <p class="right">
+        <img src="../images/logo.gif" alt="jayhanaford.com" width="39" height="28" class="right" />
+            <span>&copy;</span> All Rights Reserved - Jason Hanaford - 2011        </p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    bluecloth (2.0.11)
+    haml (3.0.25)
+    mango (0.5.2)
+      bluecloth (~> 2.0.9)
+      bundler (~> 1.0.0)
+      haml (~> 3.0.22)
+      rack (~> 1.2.1)
+      sinatra (~> 1.1.0)
+      thor (~> 0.14.3)
+    rack (1.2.2)
+    sinatra (1.1.4)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
+    thor (0.14.6)
+    tilt (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mango (~> 0.5.2)

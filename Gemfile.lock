@@ -3,7 +3,7 @@ GEM
   specs:
     bluecloth (2.0.11)
     haml (3.0.25)
-    mango (0.5.2)
+    mango (0.5.3)
       bluecloth (~> 2.0.9)
       bundler (~> 1.0.0)
       haml (~> 3.0.22)
@@ -21,4 +21,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mango (~> 0.5.2)
+  mango (~> 0.5.3)

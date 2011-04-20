@@ -65,7 +65,7 @@ body { background-color: #000; font-size: 100.01%; text-align: center; height:10
 #content_experience li { display: block; padding-left: 20px; background: url(../images/download_icon.png) no-repeat left center transparent; }
 #content_experience li a { color: #b0b0b0; }
 #content_experience li a:hover { text-decoration: underline; color: b0b0b0; }
-#content_philosophy { background: transparent url(../images/philosophy.gif) no-repeat; padding-top: 40px; width:318px; float: left; margin: 25px 5px 0px 10px; }
+#content_vision { background: transparent url(../images/vision.gif) no-repeat; padding-top: 40px; width:318px; float: left; margin: 25px 5px 0px 10px; }
 #content_specialties { background: transparent url(../images/specialties.gif) no-repeat; padding-top: 40px; width:303px; float: left; margin: 25px 0px 0px 30px; }
 #portfolio_select { width:1002px; height: 496px; margin-left: auto; margin-right: auto; padding-bottom: 250px; }
 #portfolio_select a { }
@@ -107,6 +107,10 @@ form fieldset p label { width: 380px; display: block; margin: 5px 5px 5px 6px; p
 form fieldset p textarea { padding: 2px; width: 404px; }
 form fieldset p textarea, form fieldset p input { border: solid 1px #fff; }
 form fieldset p label { color: #777; }
+input[type='submit'] { border: 1px solid #fff; background: #eee; }
+input[type='submit']:hover { cursor: pointer; border: 1px solid #0099ff; background: #b0b0b0; }
+.button { padding: 2px 4px; }
+.button:hover { padding: 2px 4px; }
 
 /* Footer */ 
 #footer { border-top: 1px solid #202020; position: relative; width:1000px; margin-left: auto; margin-right: auto; height: 55px; padding-top: 10px; }

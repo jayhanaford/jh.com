@@ -48,7 +48,7 @@ body { background-color: #000; font-size: 100.01%; text-align: center; height:10
 #header {position: relative; height:113px; margin: 0 auto; text-align: left; background: transparent url(../images/header.gif) repeat-x; }
 #navigation { position: relative; width:1000px; height:113px; margin-left: auto; margin-right: auto; background: transparent url(../images/nav.png); }
 #navigation img { display: inline; float: left; }
-#content { position: relative; width:1000px; margin-left: auto; margin-right: auto; margin-top: 20px; height: 350px; }
+#content { position: relative; width:1000px; margin-left: auto; margin-right: auto; margin-top: 20px; height: 288px; }
 #content a { color: #0099ff; 	}
 #content a:hover { color: #fff; 	}
 #content p { font: normal 13px/18px arial; 	color:#b0b0b0; text-align: left; }

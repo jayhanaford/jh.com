@@ -24,7 +24,8 @@ class Mango::Application
   post "/contact" do
     begin
       Pony.mail(:subject => "New message from #{request.url}", :body => erb(:contact))
-    rescue
+    rescue Exception => e
+      warn "#{e.class} - #{e.message}"
       halt "failure"
     end
 

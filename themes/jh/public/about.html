@@ -13,7 +13,18 @@
 	});
 </script>  
     <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-    
+    <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $("#1, #2, #3").lavaLamp({
+          fx: "easeinout",
+          speed: 200,
+          click: function clickit(el) {
+            window.location=$(el).attr('href');
+          }
+        });
+      });
+    </script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];

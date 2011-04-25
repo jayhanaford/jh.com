@@ -2,7 +2,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     activesupport (3.0.6)
-    bluecloth (2.0.11)
+    bluecloth (2.1.0)
     haml (3.0.25)
     i18n (0.5.0)
     mail (2.2.15)
@@ -10,13 +10,13 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mango (0.5.3)
-      bluecloth (~> 2.0.9)
-      bundler (~> 1.0.0)
-      haml (~> 3.0.22)
-      rack (~> 1.2.1)
-      sinatra (~> 1.1.0)
-      thor (~> 0.14.3)
+    mango (0.5.4)
+      bluecloth (~> 2.1.0)
+      bundler (~> 1.0.7)
+      haml (~> 3.0.25)
+      rack (~> 1.2.2)
+      sinatra (~> 1.1.4)
+      thor (~> 0.14.6)
     mime-types (1.16)
     polyglot (0.3.1)
     pony (1.1)
@@ -34,5 +34,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mango (~> 0.5.3)
+  mango (~> 0.5.4)
   pony (~> 1.1)

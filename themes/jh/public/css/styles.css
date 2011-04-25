@@ -25,9 +25,21 @@ ol, ul { list-style: none; }
 
 /* Lavalamp */
 .icons { position: relative; height: 90px; width: 588px; background: url("../images/nav_icons.png") no-repeat top; margin: 23px 0px 0px 0px; overflow: hidden; float: right; }
-.icons li { float: left; list-style: none; width: 145px; height: 33px; }
-.icons li.back { background: url("../images/nav_highlight.png") no-repeat scroll right -7px transparent; width: 142px; height: 53px; z-index: 8; position: absolute; top: 34px; }
-.icons li.back .left { background: url("../images/nav_highlight.png") no-repeat top left; height: 52px; margin-right: 9px; /* 7px is the width of the rounded shape */ }
+.icons li {
+  float: left;
+  list-style: none;
+  width: 145px;
+  height: 73px;
+}
+.icons li.backLava { 
+  background: url("../images/nav_highlight.png") no-repeat scroll 100% 27px transparent;
+  width: 142px;
+  height: 53px;
+  z-index: 8;
+  position: absolute;
+  top: 34px;
+}
+.icons li.backLava .left { background: url("../images/nav_highlight.png") no-repeat top left; height: 52px; margin-right: 9px; /* 7px is the width of the rounded shape */ }
 .icons li a { font: bold 14px arial; text-decoration: none; color: #fff; outline: none; text-align: center; text-transform: uppercase; letter-spacing: 0; z-index: 10; display: block; float: left; height: 52px; position: relative; overflow: hidden; margin: auto; width: 145px; }
 .icons li a:hover, .icons li a:active, .icons li a:visited { border: none; } 
 

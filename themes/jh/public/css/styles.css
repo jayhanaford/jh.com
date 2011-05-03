@@ -71,7 +71,11 @@ body { background-color: #000; font-size: 100.01%; text-align: center; height:10
 #content_welcome2 li a { color: #b0b0b0; }
 #content_welcome2 li a:hover { text-decoration: underline; color: b0b0b0; }
 #content_about { background: transparent url(../images/aboutjh.gif) no-repeat; padding-top: 45px; width:1000px; float: left; margin-top: 50px; }
-#content_img { width:182px; margin-left: 20px; margin-right: 122px; }
+#content_img {
+	width:152px;
+	margin-left: 20px;
+	margin-right: 152px;
+}
 #content_experience { background: transparent url(../images/experience.gif) no-repeat; padding-top: 40px; width:323px; float: left; margin: 25px 10px 0px 0px; }
 #content_experience ul { text-align: left; color: #b0b0b0; line-height: 2em; font: normal 10px/18px arial; padding-top: 10px; }	
 #content_experience li { display: block; padding-left: 20px; background: url(../images/download_icon.png) no-repeat left center transparent; }

@@ -102,7 +102,7 @@ while(x=eval(x));
         
 </div>
   <div id="contactform">
-  <form id="contact_form" method="POST" action="/contact">
+  <form id="contact_form" method="post" action="/contact">
 		<fieldset>
 		<legend class="largebold">Send me a message.</legend>
             <p>If you would like a quote, make sure to leave your name, details of your project, contact information, and your projected budget.</p>
@@ -119,11 +119,11 @@ while(x=eval(x));
 				<textarea cols="30" rows="10" name="message" id="message"></textarea>
 			</p>
 		</fieldset>
-		<p> 
+		<div id="form_send">
 		  <input type="submit" class="button" name="submit" id="submit" value="Send your message" alt="Submit" /> 
 		  <p id="failure" style="display:none;">We're sorry, something went wrong.</p>
 		  <p id="success" style="display:none;">Message sent.  We'll be in touch shortly.</p>
-        </p>
+        </div>
 	</form>
   </div>
   </div>  

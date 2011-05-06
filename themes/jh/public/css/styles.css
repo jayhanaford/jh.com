@@ -98,10 +98,10 @@ body { background-color: #000; font-size: 100.01%; text-align: center; height:10
 #portfolio_menu a:hover { color: #fff; }
 #portfolio_menu ul li { float: left; height: 15px; padding-right: 15px; margin: 0 15px 0 0; line-height:10px;}
 #portfolio_display { float: left; width: 954px; padding-top: 46px; padding-left: 46px; }
-#display_onecol { width: 892px; float: left; font-size: 80%; color: #b0b0b0; padding-right: 15px; text-align: left; }
-#display_twocol { width: 446px; float: left; font-size: 80%; color: #b0b0b0; padding-right: 15px; text-align: left; }
-#display_onecol img { padding-bottom: 1em; }
-#display_twocol img { padding-bottom: 1em; }
+.display_onecol { width: 892px; float: left; font-size: 80%; color: #b0b0b0; padding-right: 15px; text-align: left; }
+.display_twocol { width: 446px; float: left; font-size: 80%; color: #b0b0b0; padding-right: 15px; text-align: left; }
+.display_onecol img { padding-bottom: 1em; }
+.display_twocol img { padding-bottom: 1em; }
 .portfolio-footer {float: left; width: 1000px; border-top: 1px solid #202020; border-bottom: 1px solid #202020; padding: 11px 0 11px 0; text-align: right; margin-top: 50px; }
 .portfolio-footer :link, .portfolio-footer :visited { background: url(../images/top.gif) no-repeat scroll 77px 3px transparent; padding-right: 20px; -webkit-text-size-adjust: none; }
 
@@ -123,6 +123,10 @@ form fieldset p label { width: 380px; display: block; margin: 5px 5px 5px 6px; p
 form fieldset p textarea { padding: 2px; width: 404px; }
 form fieldset p textarea, form fieldset p input { border: solid 1px #fff; }
 form fieldset p label { color: #777; }
+#form_send {
+	text-align: left;
+	height: 75px;
+}
 input[type='submit'] { border: 1px solid #fff; background: #eee; }
 input[type='submit']:hover { cursor: pointer; border: 1px solid #0099ff; background: #b0b0b0; }
 .button { padding: 2px 4px; }

@@ -97,7 +97,7 @@ body { background-color: #000; font-size: 100.01%; text-align: center; height:10
 #portfolio_menu a { font: normal 12px arial; color:#999999; }
 #portfolio_menu a:hover { color: #fff; }
 #portfolio_menu ul li { float: left; height: 15px; padding-right: 15px; margin: 0 15px 0 0; line-height:10px;}
-#portfolio_display { float: left; width: 954px; padding-top: 46px; padding-left: 46px; }
+.portfolio_display { float: left; width: 954px; padding-top: 46px; padding-left: 46px; }
 .display_onecol { width: 892px; float: left; font-size: 80%; color: #b0b0b0; padding-right: 15px; text-align: left; }
 .display_twocol { width: 446px; float: left; font-size: 80%; color: #b0b0b0; padding-right: 15px; text-align: left; }
 .display_onecol img { padding-bottom: 1em; }
